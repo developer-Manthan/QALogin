@@ -1,0 +1,10 @@
+{
+    "card_header_text": "Log in with Quantum",
+    "radio_buttons": ["District", "Independent School"],
+    "label_placeholders": ["State*", "District*"],
+    "forgot_text": ["FORGOT USERNAME?", "FORGOT PASSWORD?"],
+    "remember_me": "Remember Me",
+    "login_button": "LOG IN",
+    "about_us": "About | Contact Us",
+    "footer_text": "&nbsp;&nbsp;|&nbsp; Copyright &copy; 2023-2024 <b>Zeus Systems Pvt. Ltd.</b> All rights reserved."
+}
