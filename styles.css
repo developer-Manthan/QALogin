@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url("fonts/static/Quicksand-Medium.ttf") format('truetype');
+    src: url("fonts/static/Quicksand-Regular.ttf") format('truetype');
+    src: url("fonts/static/Quicksand-SemiBold.ttf") format('truetype');
+    src: url("fonts/static/Quicksand-Light.ttf") format('truetype');
+    src: url("fonts/static/Quicksand-Bold.ttf") format('truetype');
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Quicksand';
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 50px auto 40px;
+    height: 100%;
+}
+
+.header {
+    background: url("qsa/header_pattern_svg.svg");
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.logo-icon {
+    content: url('qsa/icons/logo_used_in_header.svg');
+    width: auto;
+    height: 36px;
+    margin-left: 24px;
+}
+
+.main {
+    border-top: 3px solid #31B9E4;
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card {
+    margin: 50px 0 auto 32px;
+    width: 488px;
+    background: #FFFFFF;
+    border-top: 4px solid #3AC7EC;
+    padding-top: 20px;
+}
+
+.card-header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-header-text {
+    grid: 2/-2;
+    text-align: center;
+    font: normal normal medium 24px/28px 'Quicksand';
+    font-size: 24px;
+    color: #222222;
+}
+
+.back-icon {
+    content: url('qsa/icons/back.svg');
+    margin-right: auto;
+    margin-left: 32px;
+}
+
+.form-card {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.radio-buttons {
+    margin-top: 34px;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	border-radius: 50%;
+	background-clip: content-box;
+	padding: 3px;
+    vertical-align: middle;
+}
+
+.label-placeholder {
+    font: normal normal medium 12px/16px 'Quicksand';
+    font-size: 12px;
+    color: #666666;
+}
+
+input[type="radio"]:checked {
+	background-color: green;
+}
+
+.radio-text {
+    vertical-align: middle;
+    margin-right: 32px;
+    font-size: 16px;
+    font: normal normal medium 16px/20px 'Quicksand';
+    color: #333333;
+}
+
+.state {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.state-dropdown {
+    margin-top: 5px;
+    font: normal normal medium 16px/20px 'Quicksand';
+    color: #222222;
+    font-family: 'Quicksand';
+    font-size: 16px;
+}
+
+select {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    width: 100%;
+}
+
+.district {
+    margin-top: 36px;
+}
+
+.text-form {
+    margin-top: 56px;
+}
+
+.pwd-form {
+    margin-top: 33px;
+}
+
+::placeholder {
+    font: normal normal medium 16px/20px 'Quicksand';
+    font-size: 16px;
+    font-family: 'Quicksand';
+    color: #666666;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.forgot {
+    text-align: right;
+    margin-top: 1px;
+    font: normal normal medium 14px/18px Quicksand;
+    font-size: 14px;
+    color: #1F7A54;
+}
+
+.remember-checkbox {
+    margin-top: 24px;
+}
+
+input[type="checkbox"] {
+    height: 24px;
+    vertical-align: middle;
+    accent-color: rgba(31, 122, 84, 1);
+    transform: scale(1.5);
+}
+
+.remember-text {
+    vertical-align: middle;
+    font-size: 16px;
+    font: normal normal medium 16px/20px 'Quicksand';
+    color: #222222;
+}
+
+.form-button {
+    margin-top: 34px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 216px;
+    color: #1F2834;
+    background: rgba(63, 210, 139, 1) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.24);
+    border: none;
+}
+
+.about-us {
+    font-size: 14px;
+    color: #1F7A54;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.footer {
+    background: #E0E1E1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal medium 12px/16px 'Quicksand';
+    font-size: 12px;
+    color: #616161;
+}
+
+.footer-logo {
+    content: url("qsa/icons/logo_used_in_footer.svg");
+    vertical-align: middle;
+}
