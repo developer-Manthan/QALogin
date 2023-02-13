@@ -218,3 +218,9 @@ button {
     content: url("qsa/icons/logo_used_in_footer.svg");
     vertical-align: middle;
 }
+
+button { cursor:pointer; }
+
+a {
+    text-decoration: none;
+}
